@@ -1,0 +1,11 @@
+h2 {
+    margin-top: 100px;
+}
+.news2, .news3, .news4, .news5 {
+    margin-top: 100px;
+}
+
+.rei, .news1, .news2, .news3, .news4, .news5 {
+    border-bottom: 1px solid;
+    width: 1300px;
+}

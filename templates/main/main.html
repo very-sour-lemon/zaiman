@@ -1,0 +1,38 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="{% static 'style.css' %}">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body>
+    <div class="rei">
+    <h1>ニュース文(日本語)</h1>
+    <h1>英訳</h1>
+    </div>
+    <h2>{{ date }}</h2>
+    <div class="news1">
+    <h1>{{ news1 }}</h1>
+    <h1>{{ trans1 }}</h1>
+    </div>
+    <div class="news2">
+    <h1>{{ news2 }}</h1>
+    <h1>{{ trans2 }}</h1>
+    </div>
+    <div class="news3">
+    <h1>{{ news3 }}</h1>    
+    <h1>{{ trans3 }}</h1>
+    </div>
+    <div class="news4">
+    <h1>{{ news4 }}</h1>
+    <h1>{{ trans4 }}</h1>
+    </div>
+    <div class="news5">
+    <h1>{{ news5 }}</h1>
+    <h1>{{ trans5 }}</h1>
+    </div>
+</body>
+</html>
