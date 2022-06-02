@@ -29,4 +29,4 @@ def main(request):
                'trans4':list2[3],
                'trans5':list2[4],
                'date':found.text  }
-    return render(request, 'main/main.html', content)
+    return render(request, 'main/index.html', content)
